@@ -54,16 +54,11 @@ Follow these steps to set up Storytime locally on your machine:
 3. **Build App:**
    - If you want to run the dashboard run these commands in the Terminal:
      ```bash
-     cd 
+     cd story_time_dashboard
+     flutter run -d chrome --web-renderer html
      ```
-
-
-
-
-
-
-
-
-
-
-
+  - If you want to run the web app run these commands in the Terminal:
+     ```bash
+     cd story_time_web_app
+     flutter run -d chrome --web-renderer html
+     ```
