@@ -1,2 +1,5 @@
 ﻿# Story Time is a stories web app for children
-![logo](https://github.com/user-attachments/assets/f111d7e2-fe11-4516-a370-1d2dc7d8bb97)
+![logo](https://github.com/user-attachments/assets/27870842-1c7b-4a60-857f-7637ef3dacaf)
+
+## Entertaining stories for imaginative times
+
