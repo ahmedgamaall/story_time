@@ -1,0 +1,21 @@
+
+echo "Clean existing repository..."
+flutter clean
+
+echo "Getting packages..."
+flutter pub get
+
+echo "Building for web..."
+flutter build web --base-href /story_time_app_deploy/ --web-renderer html --release
+
+echo "Deploying to git repository"
+cd build/web 
+git init 
+git add . 
+git commit -m "Deploy Version 3" 
+git branch -M main 
+git remote add origin https://github.com/ahmedgamaall/story_time_app_deploy.git 
+git push -u --force origin main
+
+cd ../..
+echo "🟢 Finished Deploy"
