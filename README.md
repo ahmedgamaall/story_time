@@ -15,7 +15,7 @@ The project description can you see in [Google Slide](https://docs.google.com/pr
 - Search for any story
 - Add suggestions from kids
 
-## Live Dem
+## Live Demo
 
 1. Story time Dashboard [HERE](https://ahmedgamaall.github.io/story_time_dashboard_deploy/).
    email: ahmedgamal@gmail.com, password: 123456
